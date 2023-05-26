@@ -108,6 +108,7 @@ padding: 1rem 0;
     box-shadow: 1px 1px 6px #c9138c;
     font-family: Roboto sans-serif;
 }
+
 .input-box input:hover {
     background-color: #f1b3c8;
 }
