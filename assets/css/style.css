@@ -20,8 +20,8 @@ background: #ffc0cb;
 }
 
 .container {
-width: 80%;
-height: 80%;
+width: 90%;
+height: 90%;
 display: flex;
 box-shadow: 10px 10px 20px rgba( 0, 0, 0, 212);
 }
@@ -35,7 +35,7 @@ background-color: #f5acc3;
 }
 
 .form-image img {
-width: 48rem;
+width: 33rem;
 border-radius: 50%;
 border: 8px solid transparent;
 background: linear-gradient(#c40ef1, #e264c3, #c9138c) padding-box, 
@@ -53,7 +53,7 @@ font-family: Changa, sans-serif;
 }
 
 .form-header {
-margin-bottom: 3rem;
+margin-bottom: none;
 align-items: center;
 }
 
@@ -68,7 +68,7 @@ border-style: solid;
 border-radius: 10px;
 border: double;
 border-color: #7c0973;
-height: 80px;
+height: 60px;
 width: 400px;
 font: 30px Changa sans-serif;
 cursor: pointer;
