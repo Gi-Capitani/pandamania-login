@@ -20,8 +20,8 @@ background: #ffc0cb;
 }
 
 .container {
-width: 90%;
-height: 90%;
+width: 75%;
+height: 75%;
 display: flex;
 box-shadow: 10px 10px 20px rgba( 0, 0, 0, 212);
 }
