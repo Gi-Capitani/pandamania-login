@@ -4,13 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Foldit:wght@200;300;400&family=Luckiest+Guy&family=Pangolin&family=Roboto:wght@400;700&family=Titan+One&display=swap');
 
-*{
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
 
-body{
+body {
 width: 100%;
 height: 100vh;
 display: flex;
@@ -43,46 +43,46 @@ linear-gradient(260deg, #c40ef1, #e264c3, #c9138c ) border-box;
 }
 
 .form {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 3rem;
-    font-family: Changa, sans-serif;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 3rem;
+font-family: Changa, sans-serif;
 }
 
 .form-header {
-    margin-bottom: 3rem;
-    align-items: center;
+margin-bottom: 3rem;
+align-items: center;
 }
 
 .login-button {
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 
 .login-button button {
-    background: #f5acc3;
-    border-style: solid;
-    border-radius: 10px;
-    border: double;
-    border-color: #7c0973;
-    height: 80px;
-    width: 400px;
-    font: 30px Changa sans-serif;
-    cursor: pointer;
+background: #f5acc3;
+border-style: solid;
+border-radius: 10px;
+border: double;
+border-color: #7c0973;
+height: 80px;
+width: 400px;
+font: 30px Changa sans-serif;
+cursor: pointer;
 }
 
 .login-button button:hover {
-    background-color: #d493d1;
+background-color: #d493d1;
 }
 
 .login-button button a {
-    text-decoration: none;
-    font-weight: 500px;
-    color: #c40ef1;
-    font-family: Changa, sans-serif;
+text-decoration: none;
+font-weight: 500px;
+color: #c40ef1;
+font-family: Changa, sans-serif;
 }
 
 .input-group {
@@ -141,21 +141,22 @@ justify-content: center;
     display: none;
 }
 .container {
-    width: 50%;
+width: 50%;
 }
 .form {
-    width: 100%;
-}
-}
-@media (max-width:768px){
-:root{
-    font-size: 14px;
+ width: 100%;
 }
 }
 
 @media screen and (max-width: 1064px){
 .container {
-    width: 90%;
-    padding: auto;
+width: 90%;
+padding: auto;
+}
+}
+
+@media (max-width:768px) {
+:root{
+font-size: 14px;
 }
 }
