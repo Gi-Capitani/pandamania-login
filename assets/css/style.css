@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Foldit:wght@200;300;400&family=Luckiest+Guy&family=Roboto:wght@400;700&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Foldit:wght@200;300;400&family=Luckiest+Guy&family=Pangolin&family=Roboto:wght@400;700&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Foldit:wght@200;300;400&family=Luckiest+Guy&family=Pangolin&family=Roboto:wght@400;700&family=Titan+One&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ffc0cb;
+}
+
+.container {
+width: 80%;
+height: 80%;
+display: flex;
+box-shadow: 10px 10px 20px rgba( 0, 0, 0, 212);
+}
+
+.form-image {
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f5acc3;
+}
+
+.form-image img {
+width: 48rem;
+border-radius: 50%;
+border: 8px solid transparent;
+background: linear-gradient(#c40ef1, #e264c3, #c9138c) padding-box, 
+linear-gradient(260deg, #c40ef1, #e264c3, #c9138c ) border-box;
+}
+
+.form {
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 3rem;
+font-family: Changa, sans-serif;
+}
+
+.form-header {
+margin-bottom: 3rem;
+align-items: center;
+}
+
+.login-button {
+display: flex;
+align-items: center;
+}
+
+.login-button button {
+background: #f5acc3;
+border-style: solid;
+border-radius: 10px;
+border: double;
+border-color: #7c0973;
+height: 80px;
+width: 400px;
+font: 30px Changa sans-serif;
+cursor: pointer;
+}
+
+.login-button button:hover {
+background-color: #d493d1;
+}
+
+.login-button button a {
+text-decoration: none;
+font-weight: 500px;
+color: #c40ef1;
+font-family: Changa, sans-serif;
+}
+
+.input-group {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1rem 0;
+}
+
+.input-box {
+display: flex;
+flex-direction: column;
+margin-bottom: 1.1rem;
+
+}
+
+.input-box input {
+margin: 1.6rem 0;
+padding: 0.8rem 1.2rem;
+border: none;
+border-radius: 10px;
+box-shadow: 1px 1px 6px #c9138c;
+font-family: Roboto sans-serif;
+}
+
+.input-box input:hover {
+background-color: #f1b3c8;
+}
+
+.input-box input:focus-visible {
+outline: #c9138c;
+}
+
+.input-box label,
+.gender-title h6 {
+font-size: 1.8rem;
+font-weight: 600;
+color: #c40ef1;
+}
+
+.input-box input::placeholder {
+color: #3c064d;
+font-size: 1.5rem;
+}
+
+
+.title {
+font-family: Pangolin, sans-serif;
+color: #f36ec7;
+font-size: 2rem;
+justify-content: center;
+}
+
+@media screen and (max-width: 1330px) {
+.form-image {
+display: none;
+}
+.container {
+width: 50%;
+}
+.form {
+width: 100%;
+}
+}
+
+@media screen and (max-width: 1064px) {
+.container {
+width: 90%;
+padding: auto;
+}
+}
