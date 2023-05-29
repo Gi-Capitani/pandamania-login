@@ -148,15 +148,9 @@ width: 50%;
 }
 }
 
-@media screen and (max-width: 1064px){
+@media screen and (max-width: 1064px) {
 .container {
 width: 90%;
 padding: auto;
-}
-}
-
-@media (max-width:768px) {
-:root{
-font-size: 14px;
 }
 }
